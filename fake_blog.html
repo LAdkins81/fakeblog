@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>City Parking and Moving</title>
+    <meta name="description" content="This is a fake blog that contains information about a fake
+    company that I created to complete the assignment."/>
+  </head>
+  <body>
+    <div>
+      <h1>City Parking and Moving Services</h1>
+        <p> Welcome to City Parking and Moving Services! This business is fake, so click
+        <a href="https://adelaideadkins.wordpress.com/" target="_blank">here</a> to visit my <i>real</i> blog!
+        As noted by author Paul Coehlo, <span id="quote">"If you're brave enough to say goodbye, life will award
+        you with a new hello."</span></p>
+    </div>
+    <div>
+      <h2>About</h2>
+        <ul>
+          <li>Information</li>
+          <li>Locations</li>
+          <li>Costs</li>
+        </ul>
+    </div>
+    <div>
+      <h3>Locations and Services</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>Services</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <!--body of the table-->
+          <tbody>
+            <tr>
+              <td>Chicago</td>
+              <td>Parking Services</td>
+              <td>$20 per hour</td>
+            </tr>
+            <tr>
+              <td>Cincinnati</td>
+              <td>Moving Services</td>
+              <td>$25 for hour</td>
+            </tr>
+            <tr>
+              <td>New York City</td>
+              <td>Parking Services</td>
+              <td>$35 per hour</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <form>
+      <h4>Survey</h4>
+      <p>Please complete the following survey:</p>
+
+      <p>Did you like this blog?</p>
+      <select name="opinion">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <p>How many times have you visited this blog?</p>
+        <label>
+          <input type="radio" name="num_times" value="1-2">1-2
+        </label>
+        <label>
+          <input type="radio" name="num_times" value="3-5">3-5
+        </label>
+        <label>
+          <input type="radio" name="num_times" value="5_or_more">5 or more
+        </label>
+        <p>Check each of the cities you've visited?</p>
+          <label>
+            <input type="checkbox" name="city" value="chicago">Chicago
+          </label>
+          <label>
+            <input type="checkbox" name="city" value="cincinnati">Cincinnati
+          </label>
+          <label>
+            <input type="checkbox" name="city" value="new_york">New York City
+          </label>
+        <p>Do you have any comments?</p>
+        <textarea name="comments"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
